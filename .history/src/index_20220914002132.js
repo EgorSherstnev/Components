@@ -1,6 +1,6 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
-import { faker } from "@faker-js/faker";
+import faker  from '@faker-js/faker';
 
 const App = () => {
     return (

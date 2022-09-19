@@ -3,7 +3,6 @@ import  ReactDOM  from "react-dom";
 import { faker } from "@faker-js/faker";
 import CommentDetail from "./CommentDetail";
 import ApprovalCard from "./ApprovalCard";
-import styleCSS from  './style/App.css';
 
 const App = () => {
     return (

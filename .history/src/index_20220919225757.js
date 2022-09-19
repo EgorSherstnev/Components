@@ -3,17 +3,12 @@ import  ReactDOM  from "react-dom";
 import { faker } from "@faker-js/faker";
 import CommentDetail from "./CommentDetail";
 import ApprovalCard from "./ApprovalCard";
-import styleCSS from  './style/App.css';
 
 const App = () => {
     return (
         <div className="ui container comments">
           <ApprovalCard>
-               <div>
-                    <h4>Warning!</h4>
-                    Are you sure you want to do this?
-               </div>
-               
+               Are you sure you want to do this?
           </ApprovalCard>
 
           <ApprovalCard>
